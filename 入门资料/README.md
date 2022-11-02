@@ -1,2 +1,1 @@
-# Language-Vision-Group
-入门资料
+# 入门资料
