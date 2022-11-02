@@ -5,4 +5,8 @@
 
 ## Table of Contents
 * 入门资料
-* paper collection
+  * 教材
+  * 经典论文
+* Paper Collection
+* Existing Work
+* 组会ppt
