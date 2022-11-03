@@ -2,7 +2,7 @@
 
 打开人工智能的大门~
 
-##教材
+## 教材
 
 * 基础学习：[《机器学习》](https://pan.baidu.com/s/1MGhz4DD3e5Gz7Ngw-EZQfg?pwd=rmjc) 提取码：rmjc, 周志华著，配套李宏毅的机器学习课程食用，[b站自取](https://www.bilibili.com/video/BV1Wv411h7kN?p=1&vd_source=7dffeea6a15becf80b2b8494e3e4bc3a).
 
