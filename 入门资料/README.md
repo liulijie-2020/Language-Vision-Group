@@ -12,7 +12,7 @@
 
 * 科研论文撰写：[《如何端到端地写科研论文》](https://xpqiu.github.io/slides/20181019-PaperWriting.pdf)，邱锡鹏，复旦大学，多角度分析如何写好一篇科研论文.
 
-* [Pytorch](https://pan.baidu.com/s/1UthQRfswEjZCPWhgdXQeog)入门参考及联系资料.
+* [Pytorch](https://pan.baidu.com/s/1UthQRfswEjZCPWhgdXQeog)入门参考及练习资料.
 
 
 ## 经典论文
