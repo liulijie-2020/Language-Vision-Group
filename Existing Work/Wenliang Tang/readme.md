@@ -12,8 +12,8 @@
 
 | Model                           |Object feature |Tool for extracting the OCR feaures                      | BLEU-4        |Metor          | Rouge-L       |CIDEr          |
 |                                 |               |      Visual                |   Text                     |                |               |               |               |
-|-------------------------------- |Faster-RCNN    |:--------------             |:------------------         |:-----------------:|:---------:|:-------------:|:-------------:|
-| bsl |  24.0                     |Faster-RCNN    |ResNet+bounding box         |PHOC+fastText               |24.8          |21.7          |49.6           |91.6
+|-------------------------------- |Faster-RCNN    |--------------             |------------------         |-----------------|---------|-------------|-------------|
+| bsl                             |Faster-RCNN    |ResNet+bounding box         |PHOC+fastText               |24.8          |21.7          |49.6           |91.6
 | bsl                             |ResNet in CLIP |ResNet in CLIP +bounding box|BERT in CLIP                |   24.8      |  21.3         |46.5           |85.7          |
 | bsl                             |ResNet in CLIP |ResNet in CLIP +bounding box|BERT in CLIP                |   26.3       |  22.6        |47.8           |92.8          |
 | bsl+Clip-OCR                    |Faster-RCNN    |RestNet in CLIP+bounding box|PHOC+fastText               |   26.3       |  22.1        |47.4          |93.7          |
