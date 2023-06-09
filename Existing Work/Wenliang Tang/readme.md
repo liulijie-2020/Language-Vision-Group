@@ -10,25 +10,16 @@
 ## CLIP提取TextCaps数据集中图像的特征
 * 根据Faster-RCNN或OCR检测工具获得的区域，使用CLIP提取每个区域内的图像特征，代码见 process_obj_clip_features.py和 process_ocr_clip_features.py。CLIP提取的特征效果很强，所以会使得模型效果有大幅度提升，可以考虑用这种特征来作为新的backbone。
 
-| Model                           |Object feature |Tool for extracting the OCR feaures| BLEU-4        |Metor          | Rouge-L       |CIDEr          |
-|                                 |               |      Visual   |   Text            | 
-|-------------------------------- |Faster-RCNN    |:--------------|:------------------|:-----------------:|:---------:|:-------------:|:-------------:|
-| bsl |  24.0                     |Faster-RCNN    |ResNet+bounding box       |PHOC+fastText  |24.8          |21.7          |49.6           |91.6
-| bsl                             |ResNet in CLIP |ResNet in CLIP +bounding box|BERT in CLIP  |   24.8      |  21.3         |46.5           |85.7          |
-| bsl                             |ResNet in CLIP |ResNet in CLIP +bounding box|BERT in CLIP  |   26.3       |  22.6        |47.8           |92.8          |
-| bsl+Clip-OCR                    |Faster-RCNN    |RestNet in CLIP	ResNet in CLIP +bounding box|PHOC+fastText  |   26.3       |  22.1        |47.4          |93.7          |
-|	bsl+Clip-OCR+Master Object(COME)|Faster-RCNN    |ResNet+bounding box|PHOC+fastText  |   26.9       |   22.3       |47.8           |97.7          |
-| bsl+Clip-OCR+Master object(COME)|ResNet in CLIP |RestNet in CLIP	ResNet in CLIP +bounding box|BERT in CLIP   |   26.2        |   22.6       |    47.7      |  92.1        |
-Model	Object feature	Tool for extracting the OCR features	B4	M	R	C
-			Visual	Text				
-0	baseline	Faster-RCNN	ResNet+bonuding box 	PHOC+fastText
-	24.8	21.7	46.6	91.6
-1	baseline 	Faster-RCNN	ResNet in CLIP +bounding box	BERT in CLIP	24.8	21.3	46.5	85.7
-2	baseline	ResNet in CLIP	ResNet in CLIP +bounding box	BERT in CLIP	26.3	22.6	47.8	92.8
-3	Baseline+Clip-OCR	Faster-RCNN	ResNet+bounding box	PHOC+fastText	26.3	22.1	47.4	93.7
-4	Baseline+Clip-OCR
-+Master object (COME)	Faster-RCNN	ResNet+bounding box	PHOC+fastText	26.9	22.3	47.8	97.7
-5	Baseline+Clip-OCR +Master object	RestNet in CLIP	ResNet in CLIP +bounding box	BERT in CLIP	26.2	22.6	47.7	92.1
+| Model                           |Object feature |Tool for extracting the OCR feaures                      | BLEU-4        |Metor          | Rouge-L       |CIDEr          |
+|                                 |               |      Visual                |   Text                     |                |               |               |               |
+|-------------------------------- |Faster-RCNN    |:--------------             |:------------------         |:-----------------:|:---------:|:-------------:|:-------------:|
+| bsl |  24.0                     |Faster-RCNN    |ResNet+bounding box         |PHOC+fastText               |24.8          |21.7          |49.6           |91.6
+| bsl                             |ResNet in CLIP |ResNet in CLIP +bounding box|BERT in CLIP                |   24.8      |  21.3         |46.5           |85.7          |
+| bsl                             |ResNet in CLIP |ResNet in CLIP +bounding box|BERT in CLIP                |   26.3       |  22.6        |47.8           |92.8          |
+| bsl+Clip-OCR                    |Faster-RCNN    |RestNet in CLIP+bounding box|PHOC+fastText               |   26.3       |  22.1        |47.4          |93.7          |
+| bsl+Clip-OCR+Master Object(COME)|Faster-RCNN    |ResNet+bounding box         |PHOC+fastText               |   26.9      |   22.3       |47.8           |97.7          |
+| bsl+Clip-OCR+Master object(COME)|ResNet in CLIP |RestNet in CLIP             |BERT in CLIP                |   26.2        |   22.6       |    47.7      |  92.1        |
+
 
 
 ## 对TextCaps数据集中的视觉物体的检测框和OCR文字检测框可视化
