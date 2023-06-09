@@ -12,8 +12,8 @@
 
 | Model                           |Object feature |Visual featutes from OCR   |Textual feaures from OCR      | BLEU-4        |Metor          | Rouge-L       |CIDEr         |
 |------------------------------- |:-------------:|:--------------------------:|:--------------------------:|:--------------:|:-------------:|:--------------:|:------------:|
-| bsl                             |Faster-RCNN    |ResNet+bounding box         |PHOC+fastText               |24.8          |21.7          |49.6           |91.6
-| bsl                             |ResNet in CLIP |ResNet in CLIP +bounding box|BERT in CLIP                |   24.8      |  21.3         |46.5           |85.7          |
+| bsl                             |Faster-RCNN    |ResNet+bounding box         |PHOC+fastText               |24.8          |21.7          |46.6           |91.6
+| bsl                             |Faster-RCNN    |ResNet in CLIP +bounding box|BERT in CLIP                |   24.8      |  21.3         |46.5           |85.7          |
 | bsl                             |ResNet in CLIP |ResNet in CLIP +bounding box|BERT in CLIP                |   26.3       |  22.6        |47.8           |92.8          |
 | bsl+Clip-OCR                    |Faster-RCNN    |ResNet+bounding box         |PHOC+fastText               |   26.3       |  22.1        |47.4          |93.7          |
 | bsl+Clip-OCR+Master Object(COME)|Faster-RCNN    |ResNet+bounding box         |PHOC+fastText               |   26.9      |   22.3       |47.8           |97.7          |
