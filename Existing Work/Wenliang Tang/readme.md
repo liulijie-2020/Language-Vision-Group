@@ -11,7 +11,7 @@
 * 根据Faster-RCNN或OCR检测工具获得的区域，使用CLIP提取每个区域内的图像特征，代码见 process_obj_clip_features.py和 process_ocr_clip_features.py。CLIP提取的特征效果很强，所以会使得模型效果有大幅度提升，可以考虑用这种特征来作为新的backbone。
 
 | Model                           |Object feature |Tool for extracting the OCR |feaures                      | BLEU-4        |Metor          | Rouge-L       |CIDEr          |
-|-------------------------        |               |      Visual                |   Text                     |                |               |               |               |
+|                                 |               |      Visual                |   Text                     |                |               |               |               |
 |----------------------------- -- |:-------------:|:--------------------------:|:--------------------------:|:--------------:|:-------------:|:--------------:|:------------:|
 | bsl                             |Faster-RCNN    |ResNet+bounding box         |PHOC+fastText               |24.8          |21.7          |49.6           |91.6
 | bsl                             |ResNet in CLIP |ResNet in CLIP +bounding box|BERT in CLIP                |   24.8      |  21.3         |46.5           |85.7          |
