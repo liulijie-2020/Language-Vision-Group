@@ -8,7 +8,7 @@
 
 
 ## CLIP提取TextCaps数据集中图像的特征
-* 根据Faster-RCNN或OCR检测工具获得的区域，使用CLIP提取每个区域内的图像特征，代码见 extract_features.py
+* 根据Faster-RCNN或OCR检测工具获得的区域，使用CLIP提取每个区域内的图像特征，代码见 process_obj_clip_features.py和 process_ocr_clip_features.py
 
 
 ## 对TextCaps数据集中的视觉物体的检测框和OCR文字检测框可视化
