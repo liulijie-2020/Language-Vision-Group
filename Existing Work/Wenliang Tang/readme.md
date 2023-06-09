@@ -16,7 +16,7 @@
 
 ## 使用基于主要目标物体(master object)的方法增强模型效果，代码改动部分包括：
 * 在/home2/tangwenliang/mmf/mmf/datasets/builders/textcaps/dataset.py中根据检测框筛选出主要目标物体，并以此得到邻接矩阵A形式的图
-* 在/home2/tangwenliang/mmf/mmf/models/lstm_baseline.py中引入相应的图卷积神经网络GCN模块mr_gcn.py，根据矩阵A和特征X，使用GCN对其进行编码，得到具有增强关系的特征
+* 在/home2/tangwenliang/mmf/mmf/models/lstm_baseline.py中引入相应的图卷积神经网络GCN模块[mr_gcn.py](https://github.com/liulijie-2020/Language-Vision-Group/blob/fdc771f52eec2d3127477727255cbde3eea7a37f/Existing%20Work/Wenliang%20Tang/mr_gcn.py#LL37C45-L37C45)，根据矩阵A和特征X，使用GCN对其进行编码，得到具有增强关系的特征
 * 修改/home2/tangwenliang/mmf/mmf/models/m4c_captioner.py内的代码，修改为import导入lstm_baseline的模型。（为什么这么费劲还要改另一个文件，因为我没搞懂怎么直接创立一个能被mmf读取的model，只能先借用m4c-captioner的框架）
 * 这种思想属于减少数据中的冗余关系，已经有其它的相关工作，例如ssbaseline，SA-M4C等模型
 
