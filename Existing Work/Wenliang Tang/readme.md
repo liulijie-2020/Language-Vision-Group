@@ -21,7 +21,7 @@
 * 这种思想属于减少数据中的冗余关系，已经有其它的相关工作，例如ssbaseline，SA-M4C等模型
 
 ## 使用CLIP思想，计算模型的OCR特征中的视觉和文本两种模态的特征相似度
-* 修改/home2/tangwenliang/mmf/mmf/models/lstm_baseline.py内的函数_forward_ocr_encoding_ 函数的编码方式，将OCR特征分开编码为txt和vis
+* 修改/home2/tangwenliang/mmf/mmf/models/lstm_baseline.py内的函数[_forward_ocr_encoding_](https://github.com/liulijie-2020/Language-Vision-Group/blob/d4f9ea0c3c910b4aa73e4671f74b1a027396f334/Existing%20Work/Wenliang%20Tang/lstm_baseline.py#LL425C19-L425C19) 等编码方式，将OCR特征分开编码为txt和vis
 * 通过矩阵相乘的方式，计算两种特征相似度
 * 使该相似度矩阵的分布接近单位矩阵
 * 这个方法有很多漏洞和缺陷，具体表现为训练后的相似度矩阵S，并没有出现类似单位矩阵一样的在对角线位置上的分布
