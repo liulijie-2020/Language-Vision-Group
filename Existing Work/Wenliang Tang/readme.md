@@ -13,6 +13,7 @@
 
 ## 对TextCaps数据集中的视觉物体的检测框和OCR文字检测框可视化
 * 使用DBSCAN(基于密度的聚类算法)可以根据空间位置将空间上邻接的OCR字符聚类划分为一类，这些类别信息可用于增强OCR字符之间的关系，具体代码见[get_cluster_ocr_file.py](https://github.com/liulijie-2020/Language-Vision-Group/blob/main/Existing%20Work/Wenliang%20Tang/get_clustered_ocr_file.py)
+* 在图像上展示其中的物体检测框和OCR文字框，具体代码见[Visualization_all_ocr_box.py](https://github.com/liulijie-2020/Language-Vision-Group/blob/main/Existing%20Work/Wenliang%20Tang/Visualization_all_ocr_boundingbox.py)，当然这个可视化代码里面很多疏漏，还是自己写为好
 
 
 ## 使用基于主要目标物体(master object)的方法增强模型效果，代码改动部分包括：
