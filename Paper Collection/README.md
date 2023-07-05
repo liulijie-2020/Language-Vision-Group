@@ -1,4 +1,4 @@
-# Paper Collection
+# Index to international academic conferences and journals of CCF
 
 CCF(中国计算机学会)推荐的国际学术会议和期刊目录，其中大部分顶会顶刊处于A类或B类分区，也有少数顶会(ICLR)暂时没有被收录进目录中.
 
