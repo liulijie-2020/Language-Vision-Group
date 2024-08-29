@@ -11,5 +11,6 @@
   * CCF论文分区 
 * [Existing Work](https://github.com/liulijie-2020/Language-Vision-Group/tree/main/Existing%20Work)
 * [会议论文阅读/分类--多模态](https://github.com/liulijie-2020/Language-Vision-Group/tree/main/%E4%BC%9A%E8%AE%AE%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%88%86%E7%B1%BB)
+  * NIPS2022多模态汇总
   * CVPR2023多模态汇总
   * CVPR2024多模态汇总
