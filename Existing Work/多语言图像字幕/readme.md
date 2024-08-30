@@ -12,3 +12,4 @@
   * [CITE: Compact Interactive TransformEr for Multilingual Image Captioning, ICIGP2023](https://dl.acm.org/doi/abs/10.1145/3582649.3582658)
   * [Embedded Heterogeneous Attention Transformer for Cross-lingual Image Captioning, TMM2024](https://ieeexplore.ieee.org/abstract/document/10490218)
   
+* follow [代码](https://github.com/YuanEZhou/citmic)
